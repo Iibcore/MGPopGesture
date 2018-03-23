@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB3E7ACB2064A7A3002E742E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7ACA2064A7A3002E742E /* AppDelegate.m */; };
+		DB3E7ACE2064A7A3002E742E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7ACD2064A7A3002E742E /* ViewController.m */; };
+		DB3E7AD12064A7A3002E742E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E7ACF2064A7A3002E742E /* Main.storyboard */; };
+		DB3E7AD32064A7A3002E742E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB3E7AD22064A7A3002E742E /* Assets.xcassets */; };
+		DB3E7AD62064A7A3002E742E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB3E7AD42064A7A3002E742E /* LaunchScreen.storyboard */; };
+		DB3E7AD92064A7A3002E742E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7AD82064A7A3002E742E /* main.m */; };
+		DB3E7AE32064A8C9002E742E /* MGPopGestureDelegateHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7AE22064A8C9002E742E /* MGPopGestureDelegateHandler.m */; };
+		DB3E7AE62064A90D002E742E /* UIViewController+MGPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7AE52064A90D002E742E /* UIViewController+MGPopGesture.m */; };
+		DB3E7AE92064A923002E742E /* UINavigationController+MGPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = DB3E7AE82064A923002E742E /* UINavigationController+MGPopGesture.m */; };
+		DB3E7AEB2064CB2F002E742E /* nav_btn_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB3E7AEA2064CB2F002E742E /* nav_btn_back@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DB3E7AC62064A7A3002E742E /* MGPopGestureExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGPopGestureExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB3E7AC92064A7A3002E742E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB3E7ACA2064A7A3002E742E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB3E7ACC2064A7A3002E742E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB3E7ACD2064A7A3002E742E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB3E7AD02064A7A3002E742E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DB3E7AD22064A7A3002E742E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DB3E7AD52064A7A3002E742E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DB3E7AD72064A7A3002E742E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB3E7AD82064A7A3002E742E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB3E7AE02064A7E4002E742E /* MGPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPopGesture.h; sourceTree = "<group>"; };
+		DB3E7AE12064A8C9002E742E /* MGPopGestureDelegateHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MGPopGestureDelegateHandler.h; sourceTree = "<group>"; };
+		DB3E7AE22064A8C9002E742E /* MGPopGestureDelegateHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MGPopGestureDelegateHandler.m; sourceTree = "<group>"; };
+		DB3E7AE42064A90D002E742E /* UIViewController+MGPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MGPopGesture.h"; sourceTree = "<group>"; };
+		DB3E7AE52064A90D002E742E /* UIViewController+MGPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MGPopGesture.m"; sourceTree = "<group>"; };
+		DB3E7AE72064A923002E742E /* UINavigationController+MGPopGesture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+MGPopGesture.h"; sourceTree = "<group>"; };
+		DB3E7AE82064A923002E742E /* UINavigationController+MGPopGesture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+MGPopGesture.m"; sourceTree = "<group>"; };
+		DB3E7AEA2064CB2F002E742E /* nav_btn_back@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "nav_btn_back@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB3E7AC32064A7A3002E742E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB3E7ABD2064A7A3002E742E = {
+			isa = PBXGroup;
+			children = (
+				DB3E7AC82064A7A3002E742E /* MGPopGestureExample */,
+				DB3E7AC72064A7A3002E742E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB3E7AC72064A7A3002E742E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7AC62064A7A3002E742E /* MGPopGestureExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB3E7AC82064A7A3002E742E /* MGPopGestureExample */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7ADF2064A7D0002E742E /* MGPopGesture */,
+				DB3E7AC92064A7A3002E742E /* AppDelegate.h */,
+				DB3E7ACA2064A7A3002E742E /* AppDelegate.m */,
+				DB3E7ACC2064A7A3002E742E /* ViewController.h */,
+				DB3E7ACD2064A7A3002E742E /* ViewController.m */,
+				DB3E7ACF2064A7A3002E742E /* Main.storyboard */,
+				DB3E7AD22064A7A3002E742E /* Assets.xcassets */,
+				DB3E7AD42064A7A3002E742E /* LaunchScreen.storyboard */,
+				DB3E7AD72064A7A3002E742E /* Info.plist */,
+				DB3E7AD82064A7A3002E742E /* main.m */,
+				DB3E7AEA2064CB2F002E742E /* nav_btn_back@2x.png */,
+			);
+			path = MGPopGestureExample;
+			sourceTree = "<group>";
+		};
+		DB3E7ADF2064A7D0002E742E /* MGPopGesture */ = {
+			isa = PBXGroup;
+			children = (
+				DB3E7AE02064A7E4002E742E /* MGPopGesture.h */,
+				DB3E7AE42064A90D002E742E /* UIViewController+MGPopGesture.h */,
+				DB3E7AE52064A90D002E742E /* UIViewController+MGPopGesture.m */,
+				DB3E7AE72064A923002E742E /* UINavigationController+MGPopGesture.h */,
+				DB3E7AE82064A923002E742E /* UINavigationController+MGPopGesture.m */,
+				DB3E7AE12064A8C9002E742E /* MGPopGestureDelegateHandler.h */,
+				DB3E7AE22064A8C9002E742E /* MGPopGestureDelegateHandler.m */,
+			);
+			path = MGPopGesture;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB3E7AC52064A7A3002E742E /* MGPopGestureExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB3E7ADC2064A7A3002E742E /* Build configuration list for PBXNativeTarget "MGPopGestureExample" */;
+			buildPhases = (
+				DB3E7AC22064A7A3002E742E /* Sources */,
+				DB3E7AC32064A7A3002E742E /* Frameworks */,
+				DB3E7AC42064A7A3002E742E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGPopGestureExample;
+			productName = MGPopGestureExample;
+			productReference = DB3E7AC62064A7A3002E742E /* MGPopGestureExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB3E7ABE2064A7A3002E742E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = MANGO;
+				TargetAttributes = {
+					DB3E7AC52064A7A3002E742E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DB3E7AC12064A7A3002E742E /* Build configuration list for PBXProject "MGPopGestureExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB3E7ABD2064A7A3002E742E;
+			productRefGroup = DB3E7AC72064A7A3002E742E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DB3E7AC52064A7A3002E742E /* MGPopGestureExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB3E7AC42064A7A3002E742E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3E7AEB2064CB2F002E742E /* nav_btn_back@2x.png in Resources */,
+				DB3E7AD62064A7A3002E742E /* LaunchScreen.storyboard in Resources */,
+				DB3E7AD32064A7A3002E742E /* Assets.xcassets in Resources */,
+				DB3E7AD12064A7A3002E742E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB3E7AC22064A7A3002E742E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB3E7ACE2064A7A3002E742E /* ViewController.m in Sources */,
+				DB3E7AD92064A7A3002E742E /* main.m in Sources */,
+				DB3E7ACB2064A7A3002E742E /* AppDelegate.m in Sources */,
+				DB3E7AE32064A8C9002E742E /* MGPopGestureDelegateHandler.m in Sources */,
+				DB3E7AE62064A90D002E742E /* UIViewController+MGPopGesture.m in Sources */,
+				DB3E7AE92064A923002E742E /* UINavigationController+MGPopGesture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DB3E7ACF2064A7A3002E742E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3E7AD02064A7A3002E742E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DB3E7AD42064A7A3002E742E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB3E7AD52064A7A3002E742E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB3E7ADA2064A7A3002E742E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB3E7ADB2064A7A3002E742E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB3E7ADD2064A7A3002E742E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZ6LTS8RM;
+				INFOPLIST_FILE = MGPopGestureExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mango.MGPopGestureExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DB3E7ADE2064A7A3002E742E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6TZ6LTS8RM;
+				INFOPLIST_FILE = MGPopGestureExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mango.MGPopGestureExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB3E7AC12064A7A3002E742E /* Build configuration list for PBXProject "MGPopGestureExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3E7ADA2064A7A3002E742E /* Debug */,
+				DB3E7ADB2064A7A3002E742E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB3E7ADC2064A7A3002E742E /* Build configuration list for PBXNativeTarget "MGPopGestureExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB3E7ADD2064A7A3002E742E /* Debug */,
+				DB3E7ADE2064A7A3002E742E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB3E7ABE2064A7A3002E742E /* Project object */;
+}
